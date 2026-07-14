@@ -1,0 +1,16 @@
+{
+  "name": "aktiva-brand-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preview": "remotion studio",
+    "render": "remotion render AktivaHero ../assets/video/hero.mp4 --codec h264 --crf 20",
+    "poster": "remotion still AktivaHero ../assets/video/hero-poster.jpg --frame 150"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.245",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.245"
+  }
+}
